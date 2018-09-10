@@ -1,0 +1,30 @@
+<div class="generic-details">
+  <header class="checkout-header">Your - {{ $ctrl.product.name }}</header>
+  <hr/>
+  <div class="checkout-details">
+    <header class="small-header">Details</header>
+    <hr/>
+    <div class="selected-color">
+      <span class="color-span">Color - </span>
+      <color-box color="$ctrl.product.selectedColor" selected="true"></color-box>
+    </div>
+    <div class="selected-size">
+      <span class="size-span">Size - </span>
+      <size-box size="$ctrl.product.selectedSize" selected="true"></size-box>
+    </div>
+  </div>
+  <div class="product-img-div">
+    <img class="product-img" ng-src="{{ $ctrl.product.image }}" alt="{{ $ctrl.product.image }}">
+  </div>
+</div>
+<div class="checkout-steps">
+  <header class="small-header">Checkout - {{ $ctrl.product.finalPrice | currency : "€" }}</header>
+  <hr/>
+  <progress-bar step="$ctrl.step"></progress-bar>
+  <!-- I could load components here dynamically or just use a child route but for the simplicity I used here ng-if -->
+  <div>
+    <personal-details next-step-fn="$ctrl.setStep(step)" next-step-name="phone" ng-if="$ctrl.step === 'details'"></personal-details>
+    <phone-company set-step-fn="$ctrl.setStep(step)" next-step-name="transfer" back-step-name="details" ng-if="$ctrl.step === 'phone'"></phone-company>
+    <transfer-options set-step-fn="$ctrl.setStep(step)" next-step-name="confirmation" back-step-name="phone" ng-if="$ctrl.step === 'transfer'"></transfer-options>
+  </div>
+</div>

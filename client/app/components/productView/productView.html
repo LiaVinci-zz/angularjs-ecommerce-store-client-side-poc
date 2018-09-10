@@ -1,0 +1,38 @@
+<header class="name-header">{{ $ctrl.product.name }}</header>
+<hr/>
+<div class="details">
+  <div class="description">
+    {{ $ctrl.product.description }}
+  </div>
+  <img class="product-img" ng-src="{{ $ctrl.product.image }}" alt="{{ $ctrl.product.image }}">
+</div>
+
+<!-- Select color -->
+<section class="color-section">
+  <header class="section-header">Select color</header>
+  <hr/>
+  <color-box ng-repeat="color in $ctrl.product.colors"
+             color="color"
+             selected="$ctrl.product.selectedColor === color"
+             ng-click="$ctrl.selectColor(color)">
+  </color-box>
+</section>
+
+<!-- Select storage size -->
+<section class="size-section">
+  <header class="section-header">Select storage size</header>
+  <hr/>
+  <size-box ng-repeat="size in $ctrl.product.sizes"
+            size="size"
+            selected="$ctrl.product.selectedSize === size"
+            ng-click="$ctrl.selectSize(size)">
+  </size-box>
+</section>
+<div class="purchase-btn">
+  <button class="btn btn-warning"
+          ng-class="{'disabled': !$ctrl.product.selectedSize || !$ctrl.product.selectedColor}"
+          ng-disabled="!$ctrl.product.selectedSize || !$ctrl.product.selectedColor"
+          ng-click="$ctrl.submit()">
+    Purchase <span class="glyphicon glyphicon-shopping-cart"></span>
+  </button>
+</div>

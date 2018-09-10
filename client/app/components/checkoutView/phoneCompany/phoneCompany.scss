@@ -1,0 +1,31 @@
+@import "../../../styles/variables";
+
+.company {
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  .company-logo {
+    width: 70px;
+    height: 50px;
+  }
+
+  .company-header {
+    font-family: $font;
+    font-size: $small-header;
+    font-weight: $font-weight-light;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    line-height: $line-height;
+    letter-spacing: -0.6px;
+    color: $gray;
+  }
+
+  .single-pack {
+    display: inline-block;
+  }
+}
+
+.back-next-btn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

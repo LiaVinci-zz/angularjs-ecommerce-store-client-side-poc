@@ -1,0 +1,5 @@
+<header class="main-header">WELCOME TO OUR STORE</header>
+<div class="row" ng-if="$ctrl.products">
+  <!-- Product thumbnail -->
+  <product-card data="product" ng-repeat="product in $ctrl.products track by $index"></product-card>
+</div>

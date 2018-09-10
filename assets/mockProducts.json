@@ -1,0 +1,324 @@
+[
+  {
+    "name": "iPhone 7",
+    "description": "iPhone 7 dramatically improve every aspect of the iPhone experience, making them the best, most advanced iPhones ever featuring breakthrough new camera systems, the best battery life ever on an iPhone, and water and dust resistance. AirPods introduce an effortless wireless listening experience that has never been possible before, packed with high quality audio and long battery life. iPhone SE is the most powerful phone with a 4-inch display. ",
+    "image": "http://localhost:5000/img/products/iPhone7.png",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 672
+      },
+      {
+        "size": 256,
+        "price": 776
+      }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#313131"
+      },
+      {
+        "name": "Silver",
+        "hex": "#e3e4e6"
+      },
+      {
+        "name": "Rose",
+        "hex": "#f7d0cb"
+      }
+    ]
+  },
+  {
+    "name": "iPhone 6",
+    "description": "The sixth generation of Apple's immensely popular iPhone mobile smartphone. The iPhone 6 made its official debut in September 2014, following the iPhone 5S as the company's latest, greatest smartphone device.The iPhone 6 was joined upon its release by a new version of the iPhone, the iPhone 6 Plus, which serves as a larger version of the iPhone 6 that fits into the increasingly popular phablet category.Both the iPhone 6 and the iPhone 6 Plus are larger in size than previous generation iPhones, with the iPhone 6 sporting a new Retina HD 4.7-inch display with 1334x750 resolution and the iPhone 6 Plus delivering a 5.5-inch screen with a resolution of 1920x1080 pixels. Both devices also feature a Sapphire glass front that curves slightly around the edge and that is claimed to be shatterproof and water-resistant.",
+    "image": "http://localhost:5000/img/products/iPhone6.jpg",
+    "sizes": [
+      {
+        "size": 32,
+        "price": 120
+      },
+      {
+        "size": 64,
+        "price": 230
+      },
+      {
+        "size": 128,
+        "price": 340
+      }
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#313131"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy S8",
+    "description": "Samsung Galaxy S8 Dual SIM Powered by 5.8 inches Leatest Android Nougat 7.0 OS Quad-core 2.5 GHz Kryo and Quad-core 1.9 GHz Kryo CPU baesd on SD835 Chip with Adreno 540 GPU, 4GB RAM, 64GB internal storage and 12MP back and 8MP front Selfie Camera, Pack in 3000 mAh Non Removable BatteryThe Samsung s8 Dual SIM features 5.8 inches 2K display touchscreen with Amoled technology LCD. The device has a screen resolution of 2960 x 1440 pixels with 568 PPI pixels density. This device is shatter, dust and water proof IP68 certified - dust proof and water resistant over 1.5 meter and 30 minutes.The Samsung S8 Dual SIM Smartphone comes with 12 MP, optical image stabilization, autofocus, LED flash, Dual Shot, Simultaneous HD video and image recording, geo-tagging, touch focus, face/smile detection, panorama, HDR, 4K videos, optical stabilization, dual-video recorder Camera and make a batter Videos, images in lowlight with Led flash. The device make videos calling and shearing with 8MP front facing camera.It has Support a high Speed EDGE and GPRS, GPS, Bluetooth version of v5.0, A2DP, LE, aptX, microUSB v3.0 (MHL 2), C type with host, NFC Wi Fi, Dual Band with Hotspot GSM All version, 3G and 4G Networking.The device comes a multimedia features stereo Speakers, MP4, MP3 and Full HD Supported Player and Google Play, Facebook, Google+, twitter, HTML, FM radio, Image and video viewer and editor and Microsoft Office document viewer and editor, SMS, MMS, Emails, I mail, Push mail and threading view Text input.",
+    "image": "http://localhost:5000/img/products/SamsungGalaxyS8.png",
+    "sizes": [
+      {
+        "size": 64,
+        "price": 120
+      },
+      {
+        "size": 256,
+        "price": 325
+      }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Samsung Galaxy C9 Pro",
+    "description": "Samsung Galaxy C9 Pro 128GB Dual SIM Comes with 6 inches Super Amoled Display, Android OS 7.0 (Nougat), 16MP rear and 16MP front Camera with flash, 128GB internal Storage while 6GB RAM. The processor is Octa-core 2.0 GHz CortexA-72 base on new Qualcomm MSM8952 Snapdragon 652 chipset and Li-ion 4000 mAh battery.The Android phone provides the great experience with Adreno 510 graphic processor unit and Optional expandable memory with micro SD card Support up to 128GB. It has features 1920 x 1080 pixels touchscreen with IPS technology LCD.The Phone has batter performance 16MP back Camera with 2160p videos rec, Geo-tagging, touch focus, face detection, panorama, HDR and 16MP front selfie Camera.The Smartphone powered by large 4000 mAh Battery Life with 18 hours Talk time on 2G and 3G.The Samsung Galaxy C9 Pro 128GB smartphone accepted the Mini and micro SIM and include Wi-Fi, HSDPA, GSM, GPS, and Bluetooth Connectivity options with Proximit, Ambient light and Accelerometer Sensors",
+    "image": "http://localhost:5000/img/products/SamsungGalaxyC9Pro.jpeg",
+    "sizes": [
+      {
+        "size": 32,
+        "price": 120
+      },
+      {
+        "size": 64,
+        "price": 230
+      },
+      {
+        "size": 128,
+        "price": 520
+      },
+      {
+        "size": 256,
+        "price": 620
+      }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Lumia 950",
+    "description": "Discover the benefits of one Windows experience. Office documents and photos are in sync across devices and your favorite apps, music, and videos are in one place with the brand new Windows Store. And with Cortana for Windows 10, you can use your PC to set a location-based reminder that will arrive just in time on your Lumia.",
+    "image": "http://localhost:5000/img/products/MicrosoftLumia950.jpg",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 520
+      },
+      {
+        "size": 256,
+        "price": 620
+      }
+    ],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Silver",
+        "hex": "#e3e4e6"
+      }
+    ]
+  },
+  {
+    "name": "Microsoft Lumia 650",
+    "description": "Discover the benefits of a seamless cross-device Windows 10 experience in a precision crafted package. With refined performance and premium design, the Lumia 650 is the smart choice for your business.",
+    "image": "http://localhost:5000/img/products/MicrosoftLumia650.jpg",
+    "sizes": [
+      {
+        "size": 32,
+        "price": 130
+      },
+      {
+        "size": 64,
+        "price": 230
+      },
+      {
+        "size": 128,
+        "price": 520
+      },
+      {
+        "size": 256,
+        "price": 620
+      }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Lenovo P2",
+    "description": "The Lenovo P2 offers incredible battery life and still manages to tick off all the other aspects you'd want from a fantastic budget phone. If you're looking for a phone that lasts over two days, the Lenovo P2 is for you.",
+    "image": "http://localhost:5000/img/products/LenovoP2.png",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 520
+      },
+      {
+        "size": 256,
+        "price": 620
+      }
+    ],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      }
+    ]
+  },
+  {
+    "name": "HTC 10",
+    "description": "HTC 10. It’s more of what you’re looking for in a flagship phone. Unparalleled performance. Superb 24-bit Hi-Res sound. The world’s first* Optical Image Stabilization in both front and back cameras. And one of the highest smartphone camera rankings ever from DxOMark. All in a beautifully crafted metal unibody.",
+    "image": "http://localhost:5000/img/products/HTC10.png",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 672
+      },
+      {
+        "size": 256,
+        "price": 776
+      }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Silver",
+        "hex": "#e3e4e6"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Sony Xperia XZ",
+    "description": "The Xperia XZ is a great culmination of fantastic Sony technology though into a simple to use package. It offers top of the range spec in almost every area. You'll either love or hate the square design of the Xperia XZ, but if you like it we'd recommend picking up this latest phone from Sony. It's especially a good phone for those who want a powerful 23MP camera that's great at focusing quickly moving subjects for photos.",
+    "image": "http://localhost:5000/img/products/SonyXperiaXZ.jpeg",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 225
+      },
+      {
+        "size": 256,
+        "price": 305
+      }
+    ],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Silver",
+        "hex": "#e3e4e6"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      }
+    ]
+  },
+  {
+    "name": "OnePlus 3T",
+    "description": "The OnePlus 3T has still got the same beautiful all-metal design, the same 5.5-inch AMOLED display that's bright and vibrant and the fingerprint scanner is still lightning fast - all the main specs are there, and it's only the upgraded chipset and battery that make the biggest difference to the now-defunct OnePlus 3.",
+    "image": "http://localhost:5000/img/products/OnePlus3T.jpg",
+    "sizes": [
+      {
+        "size": 128,
+        "price": 121
+      },
+      {
+        "size": 256,
+        "price": 189
+      }
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#FFD700"
+      },
+      {
+        "name": "Silver",
+        "hex": "#e3e4e6"
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF"
+      },
+      {
+        "name": "Aqua",
+        "hex": "#0080FF"
+      }
+    ]
+  }
+]

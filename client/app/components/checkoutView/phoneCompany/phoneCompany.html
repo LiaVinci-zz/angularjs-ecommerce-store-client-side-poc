@@ -1,0 +1,21 @@
+<div class="company" ng-repeat="company in $ctrl.companies">
+  <header class="company-header">
+    {{ company.name }}
+    <img class="company-logo" ng-src="{{ company.logo }}" alt="{{ company.name }}">
+  </header>
+  <package class="single-pack" ng-repeat="package in company.packages" package="package" selected="$ctrl.selectedPackage === package" ng-click="$ctrl.selectPackage(package)"></package>
+</div>
+<div class="col-sm-4 col-sm-offset-1 back-next-btn">
+  <button type="submit"
+          class="btn btn-primary btn-warning"
+          ng-click="$ctrl.setStepFn({step: $ctrl.backStepName})">
+    <span class="glyphicon glyphicon-chevron-left"></span> Back
+  </button>
+  <button type="submit"
+          class="btn btn-primary btn-warning"
+          ng-disabled="!$ctrl.selectedPackage"
+          ng-click="$ctrl.submitPackage()"
+          ng-class="{'disabled': !$ctrl.selectedPackage}">
+    Next <span class="glyphicon glyphicon-chevron-right"></span>
+  </button>
+</div>

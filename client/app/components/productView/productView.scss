@@ -1,0 +1,55 @@
+@import "../../styles/variables";
+
+.name-header {
+  font-family: $font;
+  margin-top: 15px;
+  font-size: $big-header;
+  font-weight: $font-weight-light;
+  font-style: $font-style;
+  font-stretch: $font-stretch;
+  line-height: $line-height;
+  letter-spacing: -0.6px;
+  color: $gray;
+}
+
+.details {
+
+  .description {
+    width: 70%;
+    display: inline-table;
+    vertical-align: top;
+    margin-top: 15px;
+    font-family: $font;
+    font-size: 16px;
+    font-weight: $font-weight-light;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    line-height: 1.2;
+    letter-spacing: 0.1px;
+    color: $black;
+  }
+
+  .product-img {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 22%;
+    max-height: $product-img-max-height;
+  }
+}
+
+.section-header {
+  font-family: $font;
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: $font-weight-light;
+  font-style: $font-style;
+  font-stretch: $font-stretch;
+  line-height: $line-height;
+  letter-spacing: -0.6px;
+  color: $gray;
+}
+
+.purchase-btn {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}

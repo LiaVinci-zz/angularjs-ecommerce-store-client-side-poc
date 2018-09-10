@@ -1,0 +1,134 @@
+<div class="col-md-6">
+  <form name="detailsForm" class="form-horizontal" ng-submit="$ctrl.submitPersonalDetails()" novalidate>
+
+    <legend>Personal Details</legend>
+
+    <!-- NAME -->
+    <div class="form-group" ng-class="{ 'has-error' : detailsForm.name.$invalid && detailsForm.name.$touched }">
+      <label class="col-sm-2 control-label">Name</label>
+      <div class="col-sm-10">
+        <input type="text"
+               name="name"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.name"
+               placeholder="Your Name"
+               ng-pattern="/^[a-zA-Z\s]*$/"
+               ng-minlength="3"
+               ng-maxlength="20"
+               required>
+        <p ng-show="detailsForm.name.$error.required && detailsForm.name.$touched" class="help-block">Your name is required.</p>
+        <p ng-show="detailsForm.name.$error.pattern && detailsForm.name.$touched" class="help-block">Your name may contain only letters.</p>
+        <p ng-show="detailsForm.name.$error.minlength && detailsForm.name.$touched" class="help-block">Your name is too short.</p>
+        <p ng-show="detailsForm.name.$error.maxlength && detailsForm.name.$touched" class="help-block">Your name is too long.</p>
+      </div>
+    </div>
+
+    <!-- EMAIL -->
+    <div class="form-group" ng-class="{ 'has-error' : detailsForm.email.$invalid && detailsForm.email.$touched }">
+      <label class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email"
+               name="email"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.email"
+               placeholder="Your Email Address"
+               ng-pattern = '/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i'
+               required>
+        <p ng-show="detailsForm.email.$error.required && detailsForm.email.$touched" class="help-block">Your email is important for us so we can send you notification about your purchase.</p>
+        <p ng-show="detailsForm.email.$error.pattern && detailsForm.email.$touched" class="help-block">Please enter a valid email.</p>
+      </div>
+    </div>
+
+    <legend>Address Details</legend>
+
+    <!-- ADDRESS -->
+    <div class="form-group" ng-class="{ 'has-error' : (detailsForm.addressName.$invalid && detailsForm.addressName.$touched) || (detailsForm.addressNumber.$invalid && detailsForm.addressNumber.$touched) }">
+      <label class="col-sm-2 control-label">Address</label>
+      <div class="col-sm-6">
+        <input type="text"
+               name="addressName"
+               placeholder="Your Address Name"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.addressName"
+               ng-pattern="/^[a-zA-Z\s]*$/"
+               ng-minlength="3"
+               ng-maxlength="50"
+               required>
+        <p ng-show="detailsForm.addressName.$error.required && detailsForm.addressName.$touched" class="help-block">Your address name is required.</p>
+        <p ng-show="detailsForm.addressName.$error.pattern && detailsForm.addressName.$touched" class="help-block">Your address name may contain only letters.</p>
+        <p ng-show="detailsForm.addressName.$error.minlength && detailsForm.addressName.$touched" class="help-block">Your address name is too short.</p>
+        <p ng-show="detailsForm.addressName.$error.maxlength && detailsForm.addressName.$touched" class="help-block">Your address name is too long.</p>
+      </div>
+      <div class="col-sm-4">
+        <input type="text"
+               name="addressNumber"
+               placeholder="Address Number"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.addressNumber"
+               required>
+        <p ng-show="detailsForm.addressNumber.$error.required && detailsForm.addressNumber.$touched" class="help-block">Don't forget address number.</p>
+      </div>
+    </div>
+
+    <!-- CITY -->
+    <div class="form-group" ng-class="{ 'has-error' : detailsForm.city.$invalid && detailsForm.city.$touched }">
+      <label class="col-sm-2 control-label">City</label>
+      <div class="col-sm-10">
+        <input type="text"
+               name="city"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.city"
+               placeholder="City"
+               ng-pattern="/^[a-zA-Z\s]*$/"
+               ng-minlength="3"
+               ng-maxlength="50"
+               required>
+        <p ng-show="detailsForm.city.$error.required && detailsForm.city.$touched" class="help-block">Your city is required.</p>
+        <p ng-show="detailsForm.city.$error.pattern && detailsForm.city.$touched" class="help-block">Your city name may contain only letters.</p>
+        <p ng-show="detailsForm.city.$error.minlength && detailsForm.city.$touched" class="help-block">Your city name is too short.</p>
+        <p ng-show="detailsForm.city.$error.maxlength && detailsForm.city.$touched" class="help-block">Your city name is too long.</p>
+      </div>
+    </div>
+
+    <!-- COUNTRY -->
+    <div class="form-group" ng-class="{ 'has-error' : detailsForm.country.$invalid && detailsForm.country.$touched }">
+      <label class="col-sm-2 control-label">Country</label>
+      <div class="col-sm-10">
+        <input type="text"
+               name="country"
+               class="form-control"
+               ng-model="$ctrl.personalDetails.country"
+               placeholder="Country"
+               ng-pattern="/^[a-zA-Z\s]*$/"
+               ng-minlength="3"
+               ng-maxlength="50"
+               required>
+        <p ng-show="detailsForm.country.$error.required && detailsForm.country.$touched" class="help-block">Your country is required.</p>
+        <p ng-show="detailsForm.country.$error.pattern && detailsForm.country.$touched" class="help-block">Your country name may contain only letters.</p>
+        <p ng-show="detailsForm.country.$error.minlength && detailsForm.country.$touched" class="help-block">Your country name is too short.</p>
+        <p ng-show="detailsForm.country.$error.maxlength && detailsForm.country.$touched" class="help-block">Your country name is too long.</p>
+      </div>
+    </div>
+
+    <!-- TERMS & CONDITIONS -->
+    <div class="form-group" ng-class="{ 'has-error' : detailsForm.terms.$invalid && detailsForm.terms.$dirty}">
+      <div class="col-sm-offset-4 col-sm-10">
+        <label>Accept Terms & Conditions</label>
+        <input type="checkbox" value="" name="terms" ng-model="$ctrl.personalDetails.terms" ng-required="true"/>
+        <p ng-show="detailsForm.terms.$error.required && detailsForm.terms.$dirty" class="help-block">In Order To Continue You Must Accept Our Terms.</p>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="pull-right">
+          <button type="submit"
+                  class="btn btn-primary btn-warning"
+                  ng-disabled="detailsForm.$invalid">
+            Next <span class="glyphicon glyphicon-chevron-right"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

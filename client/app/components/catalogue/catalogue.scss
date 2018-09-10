@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+
+.main-header {
+  color: $light-blue;
+  font-family: $font;
+  font-weight: $font-weight-bold;
+  font-style: $font-style;
+  font-stretch: $font-stretch;
+  line-height: $line-height;
+  font-size: $big-header;
+  letter-spacing: -0.6px;
+  text-align: center;
+  margin: 25px;
+}

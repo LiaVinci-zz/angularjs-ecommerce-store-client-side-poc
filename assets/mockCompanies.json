@@ -1,0 +1,40 @@
+{
+  "companies": [
+    {
+      "name": "KPN Mobile",
+      "logo": "http://localhost:5000/img/companies-logo/KPN_logo.jpg",
+      "packages": [
+        {
+          "name": "KPN Standard",
+          "price": 20,
+          "minutes": 100,
+          "data": 4
+        },
+        {
+          "name": "KPN Deluxe",
+          "price": 30,
+          "minutes": 200,
+          "data": 8
+        }
+      ]
+    },
+    {
+      "name": "Telfort",
+      "logo": "http://localhost:5000/img/companies-logo/Telfort_logo.png",
+      "packages": [
+        {
+          "name": "Telfort M",
+          "price": 22,
+          "minutes": 105,
+          "data": 5
+        },
+        {
+          "name": "Telfort XL",
+          "price": 25,
+          "minutes": 120,
+          "data": 7
+        }
+      ]
+    }
+  ]
+}

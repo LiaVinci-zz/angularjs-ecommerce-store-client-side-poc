@@ -1,0 +1,12 @@
+<div class="confirm-header">
+  <header>
+    <div>
+      Thank you {{ $ctrl.orderDetails.personalDetails.name }} for your order.
+    </div>
+    <div>
+      Your {{ $ctrl.productDetails.name }} {{ $ctrl.orderDetails.selectedTransfer.ready }}.
+    </div>
+  </header>
+  <hr/>
+</div>
+<button class="btn btn-lg btn-info col-sm-offset-5" ng-click="$ctrl.backToCatalogue()"><span class="glyphicon glyphicon-shopping-cart"></span> Back to our catalogue</button>

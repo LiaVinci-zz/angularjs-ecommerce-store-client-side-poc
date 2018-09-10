@@ -1,0 +1,13 @@
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail">
+    <img class="product-img" ng-src="{{ $ctrl.product.image }}" alt="{{ $ctrl.product.image }}">
+    <div class="caption">
+      <header class="product-name">{{ $ctrl.product.name }}</header>
+      <div class="description">{{ $ctrl.product.description }}</div>
+      <div class="price">Price from {{ $ctrl.product.sizes[0].price | currency : "€" }}</div>
+      <button class="btn btn-block btn-primary btn-info" ui-sref="productView({product: $ctrl.product})">
+        Purchase <span class="glyphicon glyphicon-shopping-cart"></span>
+      </button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<div class="single-option" ng-class="{ 'selected': $ctrl.selected }">
+  <div class="option-name">{{ $ctrl.singleOption.name }}</div>
+  <div class="option">
+    {{ $ctrl.singleOption.ready }}
+  </div>
+  <div class="option price" ng-if="$ctrl.singleOption.price !== 0">
+    {{ $ctrl.singleOption.price | currency : "€" }}
+  </div>
+  <div class="option price" ng-if="$ctrl.singleOption.price === 0">
+    Free of charge
+  </div>
+  <div class="option payment">
+    {{ $ctrl.singleOption.payment }}
+  </div>
+  <div class="option-icon glyphicon {{ $ctrl.singleOption.icon }}" aria-hidden="true"></div>
+</div>

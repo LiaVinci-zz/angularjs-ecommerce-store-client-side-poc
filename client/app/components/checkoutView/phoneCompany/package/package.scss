@@ -1,0 +1,57 @@
+@import "../../../../styles/variables";
+
+.single-package {
+  border-radius: 3px;
+  width: 170px;
+  height: 125px;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid $white;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: 16px;
+  margin-right: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.selected {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .package-name {
+    font-size: 22px;
+    line-height: 1.04167;
+    letter-spacing: .006em;
+    font-family: $font;
+    font-weight: $font-weight-light;
+    color: $black;
+  }
+
+  .package-details {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    font-weight: $font-weight-bold;
+    letter-spacing: .033em;
+    font-family: $font;
+    color: $gray;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .package-price {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 1.5;
+    font-weight: $font-weight-bold;
+    letter-spacing: .033em;
+    font-family: $font;
+    color: $gray;
+  }
+}

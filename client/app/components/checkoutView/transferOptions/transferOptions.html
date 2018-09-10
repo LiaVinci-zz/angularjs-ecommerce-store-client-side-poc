@@ -1,0 +1,15 @@
+<div class="transfer-options">
+  <single-option ng-repeat="option in $ctrl.transferOptions" single-option="option" selected="$ctrl.selectedTransfer === option" ng-click="$ctrl.selectTransfer(option)"></single-option>
+</div>
+<button type="submit"
+        class="btn btn-primary btn-warning"
+        ng-click="$ctrl.setStepFn({step: $ctrl.backStepName})">
+  <span class="glyphicon glyphicon-chevron-left"></span> Back
+</button>
+<button type="submit"
+        class="btn btn-primary btn-warning"
+        ng-disabled="!$ctrl.selectedTransfer"
+        ng-click="$ctrl.submitTransfer()"
+        ng-class="{'disabled': !$ctrl.selectedTransfer}">
+  Next <span class="glyphicon glyphicon-chevron-right"></span>
+</button>

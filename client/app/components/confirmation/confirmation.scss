@@ -1,0 +1,15 @@
+@import "../../styles/variables";
+
+.confirm-header {
+  header {
+    margin-top: 100px;
+    font-family: $font;
+    font-size: $big-header;
+    font-weight: $font-weight-light;
+    font-style: $font-style;
+    font-stretch: $font-stretch;
+    line-height: $line-height;
+    letter-spacing: -0.6px;
+    color: $gray;
+  }
+}

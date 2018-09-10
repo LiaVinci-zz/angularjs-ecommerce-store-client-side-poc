@@ -1,0 +1,16 @@
+<div class="single-package" ng-class="{ 'selected': $ctrl.selected }">
+  <div class="package-name">
+    {{ $ctrl.package.name }}
+  </div>
+  <div class="package-details">
+    <p>
+      {{ $ctrl.package.minutes }} minutes
+    </p>
+    <p>
+      {{ $ctrl.package.data }}GB of data
+    </p>
+  </div>
+  <div class="package-price">
+    Price: {{ $ctrl.package.price | currency : "€" }}
+  </div>
+</div>

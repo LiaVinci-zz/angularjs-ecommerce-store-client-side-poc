@@ -1,0 +1,50 @@
+@import "../../../styles/variables";
+
+.thumbnail {
+  padding: 10px;
+  height: 450px;
+  font-family: $font;
+
+  .product-img {
+    height: 150px;
+  }
+
+  .caption {
+
+    .product-name {
+      color: $black;
+      font-family: $font;
+      font-size: $medium-header;
+      font-weight: $font-weight-light;
+      letter-spacing: -0.3px;
+    }
+
+    .description {
+      height: 130px;
+      color: $black;
+      font-family: $font;
+      font-size: $regular-text;
+      font-weight: $font-weight-bold;
+      font-style: $font-style;
+      font-stretch: $font-stretch;
+      line-height: 1.2;
+      letter-spacing: 0.1px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .price {
+      height: 60px;
+      font-family: $font;
+      font-size: $small-header;
+      font-weight: $font-weight-bold;
+      font-style: $font-style;
+      font-stretch: $font-stretch;
+      line-height: $line-height;
+      letter-spacing: -0.6px;
+      display: table-cell;
+      vertical-align: middle;
+      padding-top: 20px;
+    }
+  }
+}
